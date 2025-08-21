@@ -7,3 +7,28 @@
   line-height: 1.5;
   font-weight: 400;
 }
+/* Simple improvement for the dashboard cards */
+.bg-white {
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.bg-white:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
+}
+
+/* Improve button styles */
+.bg-gray-100 {
+  border-radius: 8px;
+}
+
+.bg-blue-100 {
+  border-radius: 8px;
+}
+
+/* Add some spacing between chart and cards */
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
